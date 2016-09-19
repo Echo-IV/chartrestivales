@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>ChartrEstival - Livre d'or</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top"><!-- start header -->
+        <div class="container-fluid"><!-- start container-fluid -->
+            <div class="navbar-header"><!-- start navbar-header -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">ChartrEstival</a>
+            </div><!-- end navbar-header -->
+
+            <div class="collapse navbar-collapse" id="header"><!-- start collapse -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Accueil</a></li>
+                    <li><a href="programme.html"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Programme</a></li>
+                    <li><a href="phototheque.html"><span class="glyphicon glyphicon-picture"></span> Phototèques</a></li>
+                    <li><a href="contact.html"><span class="glyphicon glyphicon-comment"></span> Qui sommes nous ?</a></li>
+                    <li class="active"><a href="livre.html"><span class="glyphicon glyphicon-book"></span> Livre d'or</a></li>
+                </ul>
+            </div><!-- navbar-collapse -->
+        </div><!-- container-fluid -->
+    </nav><!-- end header -->
+
+    <div class="container-fluid background2">
+        <div class="row">
+            <div class="col-xs-12 prog">
+                <h1>Livre d'or</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid col-xs-12 text-center"><!-- start container-fluid -->
+        <h2>Laisser un commentaire</h2>
+        <div class="col-md-8 col-md-offset-2 text-center"><!-- start col-md-8 -->
+
+            <form action="livre.html"><!-- form -->
+                <div class="row"><!-- start row -->
+                    <div class="input">
+                        <div class="form-group">
+                            <label for="inputlastname">Votre Nom</label>
+                            <input type="text" name="lastname" class="form-control" id="inputlastname">
+                        </div>
+                    </div>
+                    <div class="input">
+                        <div class="form-group">
+                            <label for="inputname">Votre Prénom</label>
+                            <input type="text" name="firstname" class="form-control" id="inputname">
+                        </div>
+                    </div>
+                    <div class="input">
+                        <div class="form-group">
+                            <label for="inputmessage">Votre Message</label>
+                            <textarea placeholder="Message" required name="message" class="form-control" id="inputmessage"></textarea>
+                        </div>         
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary">Envoyer</button>        
+                    </div>
+
+                </div><!-- end row -->
+            </form><!-- end form -->
+        </div><!-- end col-md-8 -->
+    </div><!-- end container-fluid -->
+
+    <div class="container-fluid">
+        <div class="col-xs-offset-2 col-xs-10 contact">
+            <h2>Roch Beauchemin</h2>
+            <strong>Le 27/09/16</strong>
+            <p>Bravo et merci à toute l'équipe de bénévoles de Chartrestivales pour cette super programmation 2016.
+                Vivement Chartrestivales 2017 !</p>
+            </div>
+
+            <div class="col-xs-offset-2 col-xs-10 contact">
+                <h2>Sylvain Duriff</h2>
+                <strong>Le 29/09/16</strong>
+                <p>Je suis le christ cosmique !</p>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-default navbar-fixed-bottom footer">
+          <div class="container-fluid">
+            <ul class="nav navbar-nav pull-right">
+             <li><span><a href=""><img class="rs pull-right" src="img/twitter.png" alt="resaux sociaux"></a></span></li>
+             <li><span><a href=""><img class="rs pull-right" src="img/facebook.png" alt="resaux sociaux"></a></span></li>
+         </ul>
+     </div>
+ </nav>
+
+ <script src="js/jquery.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

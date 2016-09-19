@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>ChartrEstival - Contact</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top"><!--start header -->
+        <div class="container-fluid"><!-- start container-fluid -->
+            <div class="navbar-header"><!-- start navbar-header -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">ChartrEstival</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="header"><!-- start collapse-->
+               <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Accueil</a></li>
+                <li><a href="programme.html"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Programme</a></li>
+                <li><a href="phototheque.html"><span class="glyphicon glyphicon-picture"></span> Phototèques</a></li>
+                <li class="active"><a href="contact.html"><span class="glyphicon glyphicon-comment"></span> Qui sommes nous ?</a></li>
+                <li><a href="livre.html"><span class="glyphicon glyphicon-book"></span> Livre d'or</a></li>
+            </ul>
+        </div><!-- navbar-collapse -->
+    </div><!-- container-fluid -->
+</nav><!-- end header -->
+
+<div class="container-fluid background2">
+    <div class="row">
+        <div class="col-xs-12 prog">
+            <h1>Qui sommes nous ?</h1>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-offset-3 col-md-6 col-xs-12 txt_contact">
+    <p>L'association <strong>ChartrESTIVALES</strong> a été crée en <strong>2007</strong>, Association loi 1901, elle a repris le flambeau de l'Office de Tourisme de Chartres et a permis de péréniser les soirées estivales qui sont organisées à Chartres depuis 1992
+    </p>
+    <p>Son Président : <strong>Michel BRISSON</strong> est l'organisateur de ces soirées depuis leur création.</p>
+    <p>Il a su fidéliser une équipe de bénévoles qui, chaque année, donnent de leur temps et de leur énergie pour le seconder tout au long de chaque été.</p>
+</div>
+
+<div class="container-fluid col-xs-12 text-center"><!-- start content -->
+    <h2>Nous contacter</h2>
+    <div class="col-md-6 text-center contact"><!-- start contact -->
+
+        <form action="contact.html"><!-- start form -->
+            <div class="row"><!-- start row -->
+                <div class="input">
+                    <div class="form-group">
+                        <label for="inputlastname">Votre Nom</label>
+                        <input type="text" name="lastname" class="form-control" id="inputlastname">
+                    </div>
+                </div>
+                <div class="input">
+                    <div class="form-group">
+                        <label for="inputname">Votre Prénom</label>
+                        <input type="text" name="firstname" class="form-control" id="inputname">
+                    </div>
+                </div>
+                <div class="input">
+                    <div class="form-group">
+                        <label for="email">Votre Email</label>
+                        <input type="text" name="email" class="form-control" id="email">
+                    </div>
+                </div>
+                <div class="input">
+                    <div class="form-group">
+                        <label for="inputmessage">Votre Message</label>
+                        <textarea placeholder="Message" required name="message" class="form-control" id="inputmessage"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </div>
+            </div>
+        </form><!-- end form -->
+    </div><!-- end contact-->
+    <div class="col-xs-12 col-md-6"><!-- start google map -->
+        <h2>ChartrEstivales</h2>
+        <p>5 Cloître Notre-Dame <br/>
+            28000 CHARTRES <br/> 
+            02 37 18 26 26 <br/>
+            chartrestivales@chartrestivales.com</p>
+            <div class="google-maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.5110313732184!2d1.4847786155778064!3d48.44672367924931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e40c47d3414355%3A0x70fc9db2f9483ccf!2s5+Clo%C3%AEtre+Notre+Dame%2C+28000+Chartres!5e0!3m2!1sfr!2sfr!4v1473629379736" width="600" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div><!-- end google map -->
+    </div><!-- end content -->
+
+    <nav class="navbar navbar-default navbar-fixed-bottom footer"><!-- start footer -->
+      <div class="container-fluid">
+        <ul class="nav navbar-nav pull-right">
+            <li><span><a href=""><img class="rs pull-right" src="img/twitter.png" alt="resaux sociaux"></a></span></li>
+            <li><span><a href=""><img class="rs pull-right" src="img/facebook.png" alt="resaux sociaux"></a></span></li>
+        </ul>
+    </div>
+</nav><!-- end footer -->
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

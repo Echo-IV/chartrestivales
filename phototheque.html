@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>ChartrEstival - Photothèque</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top"><!-- start header -->
+    <div class="container-fluid"><!-- start container-fluid -->
+      <div class="navbar-header"><!-- start navbar-header-->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">ChartrEstival</a>
+      </div><!-- end navbar-header-->
+
+      <div class="collapse navbar-collapse" id="header"><!-- start collapse -->
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Accueil</a></li>
+          <li><a href="programme.html"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Programme</a></li>
+          <li class="active"><a href="phototheque.html"><span class="glyphicon glyphicon-picture"></span> Phototèques</a></li>
+          <li><a href="contact.html"><span class="glyphicon glyphicon-comment"></span> Qui sommes nous ?</a></li>
+          <li><a href="livre.html"><span class="glyphicon glyphicon-book"></span> Livre d'or</a></li>
+        </ul>
+      </div><!-- navbar-collapse -->
+    </div><!-- container-fluid -->
+  </nav><!-- end header -->
+
+  <div class="container-fluid background2">
+    <div class="row">
+      <div class="col-xs-12 prog">
+        <h1>Phototheque</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid contenu"><!-- start content -->
+    <div class="row"><!-- start row -->
+      <ul class="nav nav-pills nav-justified"><!-- start systeme onglets -->
+        <li class="active"><a data-toggle="pill" href="#home">Juin 2016</a></li>
+        <li><a data-toggle="pill" href="#menu1">Juillet 2016</a></li>
+      </ul>
+
+      <div class="tab-content text-center"><!-- start systeme onglet -->
+        <div id="home" class="tab-pane fade in active"><!-- start onglet1 -->
+          <h3>JUIN 2016</h3>
+
+          <ul id="rig"><!-- start content onglet1 -->
+            <li>
+             <a class="rig-cell thumbnail" data-toggle="modal" data-target='#lightbox' href="#">
+              <img class="rig-img" src="img/juin1.jpg" alt="programme juin">
+              <span class="rig-overlay"></span>
+              <span class="rig-text">ORCHESTRE SYMPHONIQUE DE CHARTRES</span>
+            </a>
+          </li>
+
+          <li>
+            <a class="rig-cell thumbnail" data-toggle="modal" data-target='#lightbox1' href="#">
+              <img class="rig-img" src="img/juin2.jpg" alt="">
+              <span class="rig-overlay"></span>
+              <span class="rig-text">OUVERTURE DES SOIRÉES AVEC LES SHOWS DU CUIVRE</span>
+            </a>
+          </li>
+        </ul><!-- end content onglet1 -->
+
+        <!-- start modal1 -->
+        <div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="lightbox1" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="img/juin1.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end modal1 -->
+
+        <!-- start modal2-->
+        <div id="lightbox1" class="modal fade" tabindex="-2" role="dialog" aria-labelledby="modal" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <button type="button" class="close hidden" data-dismiss="modal2" aria-hidden="true">×</button>
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="img/juin2.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div><!-- end modal2-->
+      </div><!-- end onglet1-->
+
+      <div id="menu1" class="tab-pane fade"><!-- start onglet2-->
+        <h3>JUILLET 2016</h3>
+
+        <ul id="rig">
+          <li>
+           <a class="rig-cell thumbnail" data-toggle="modal" data-target='#lightbox2' href="#">
+            <img class="rig-img" src="img/juillet1.jpg" alt="programme juin">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Diana HORTA POPOFF et J.J. RUHLMANN</span>
+          </a>
+        </li>
+      </ul>
+
+      <div id="lightbox2" class="modal fade modal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true"><!-- start modal 3 -->
+        <div class="modal-dialog" role="document">
+          <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="img/juillet1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div><!-- end modal3 -->
+    </div><!-- end onglet 2 -->
+  </div><!-- end onglet systeme -->
+</div><!-- end div-row -->
+</div><!-- end content -->
+
+<nav class="navbar navbar-default navbar-fixed-bottom footer">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav pull-right">
+     <li><span><a href=""><img class="rs pull-right" src="img/twitter.png" alt="resaux sociaux"></a></span></li>
+     <li><span><a href=""><img class="rs pull-right" src="img/facebook.png" alt="resaux sociaux"></a></span></li>
+   </ul>
+ </div>
+</nav>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-lightbox.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

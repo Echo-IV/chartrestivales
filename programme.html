@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>ChartrEstival - Programme</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top"><!-- start header -->
+        <div class="container-fluid"><!-- start container-fluid -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">ChartrEstival</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="header"><!-- start navbar-collapse -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Accueil</a></li>
+                    <li class="active"><a href="programme.html"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Programme</a></li>
+                    <li><a href="phototheque.html"><span class="glyphicon glyphicon-picture"></span> Phototèques</a></li>
+                    <li><a href="contact.html"><span class="glyphicon glyphicon-comment"></span> Qui sommes nous ?</a></li>
+                    <li><a href="livre.html"><span class="glyphicon glyphicon-book"></span> Livre d'or</a></li>
+                </ul>
+            </div><!-- navbar-collapse -->
+        </div><!-- container-fluid -->
+    </nav><!-- end header -->
+
+    <div class="container-fluid background2"><!-- start background -->
+        <div class="row">
+            <div class="col-xs-12 prog">
+                <h1>Programme</h1>
+            </div>
+        </div>
+    </div><!-- end background -->
+
+    <div class="container-fluid contenu programme"><!-- start contenu -->
+        <div class="row"><!-- start row -->
+            <ul class="nav nav-pills nav-justified">
+                <li class="active"><a data-toggle="pill" href="#home">Juin 2016</a></li>
+                <li><a data-toggle="pill" href="#menu1">Juillet 2016</a></li>
+            </ul>
+
+            <div class="tab-content text-center"><!-- start onglets -->
+                <div id="home" class="tab-pane fade in active"><!-- start first onglet -->
+                    <h3>JUIN 2016</h3>
+                    <div class="container-fluid"><!-- start container-fluid -->
+                        <div class="row"><!-- start row -->
+                            <div class="col-xs-12 col-md-6 col-sm-12">
+                                <img class="col-xs-12" src="img/Chartres-lumieres-2016.jpg" alt="programme juin">
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                                <h2>Chartres en lumière</h2>
+                                <p>L'événement à ne pas manquer, un voyage lumineux tous les soirs de la nuit tombée à 1h du matin, un parcours lumineux toujours en mouvement et des créations scéniques de plus en plus attractives.</p>
+                                <a href="phototheque.html">Phototeque</a>
+                            </div>
+                        </div><!-- end row -->
+                    </div><!-- end container-fluid -->
+                </div><!-- end first onglet -->
+
+                <div id="menu1" class="tab-pane fade"><!-- start 2nd onglet -->
+                    <h3>JUILLET 2016</h3>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div>
+                                <img class="col-xs-12 col-md-6" src="img/feu-d'artifice.jpg" alt="">
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                                <h2>Feu d’artifice</h2>
+                                <p>Tous les ans, la Ville de Chartres vous invite à célébrer notre fête nationale, le 13 et 14 juillet, les traditionnels feux d'artifices et défilés, un bal populaire et un grand concert.</p>
+                                <a href="phototheque.html">Phototeque</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end 2nd onglet -->
+            </div><!-- end onglets -->
+        </div><!-- end row -->
+    </div><!-- end contenu -->
+
+    <nav class="navbar navbar-default navbar-fixed-bottom footer"><!-- start footer-->
+        <div class="container-fluid">
+            <ul class="nav navbar-nav pull-right">
+               <li><span><a href=""><img class="rs pull-right" src="img/twitter.png" alt="resaux sociaux"></a></span></li>
+               <li><span><a href=""><img class="rs pull-right" src="img/facebook.png" alt="resaux sociaux"></a></span></li>
+           </ul>
+       </div>
+   </nav><!-- end footer -->
+
+   <script src="js/jquery.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
